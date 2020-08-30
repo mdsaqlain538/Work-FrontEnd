@@ -133,7 +133,7 @@ const Password = () => {
       {successMessage()}
       {errorMessage()}
       {signUpForm({email})}
-      <p>There is some problem with my encrypt and database I am sending you the screenshot where the old password and the encrypt password key value matches that means we can update the password.</p>
+      <p>There is some problem with my encrypt and database I am sending you the screenshot where the old password and the encrypt password key value matches that means we can update the password. Thank You Sir for Understanding I can Explain u the code if you feel i havent done properly.</p>
     </Base>
   );
 };
