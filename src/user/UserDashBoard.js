@@ -60,7 +60,7 @@ export default function UserDashBoard()
     } = isAuthenticated();
     return (
         <Base title="INFORMATION" 
-        description="Pariksha-Information"
+        description="Pariksha-Information Task is Done."
         className='container bg-info p-4'
         >
             <div className='row'>

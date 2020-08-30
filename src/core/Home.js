@@ -18,6 +18,12 @@ export default function Home()
                   <p>Front-End Deployed in Netlify</p>
                   <p>Back-End Deployed in Heroku</p>
                   <p>Create Your Account or Login</p>
+                  <p>Registration is Done ✅</p>
+                  <p>Dashboard is Done ✅</p>
+                  <p>Profile is Done ✅</p>
+                  <p>Change Password has some functional Issues the code logic is Correct.I can Share if u Want</p>
+                  <p>Logout is Done ✅</p>
+                  <p>Login is Done ✅</p>
                 </div>
             </div>
         </Base>
