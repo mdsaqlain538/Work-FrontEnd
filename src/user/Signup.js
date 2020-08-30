@@ -56,6 +56,7 @@ const Signup = () => {
         <div className="col-md-6 offset-sm-3 text-left">
           <form>
             <div className="form-group">
+              
               <p>Create Your Account .</p>
               <label className="text-light">First Name</label>
               <input
@@ -132,6 +133,7 @@ const Signup = () => {
             <button onClick={onSubmit} className="btn btn-primary btn-block">
               Submit
             </button>
+            <p>Validation is done in Backend so dont worry If you Enter Blank Details it wont store in Database.</p>
           </form>
         </div>
       </div>
@@ -171,8 +173,8 @@ const Signup = () => {
 
   return (
     <Base title="SIGN UP PAGE" description="A page for user to sign up!">
-      {successMessage()}
       {errorMessage()}
+      {successMessage()}
       {signUpForm()}
     </Base>
   );
