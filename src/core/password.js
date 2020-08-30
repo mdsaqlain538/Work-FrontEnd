@@ -133,7 +133,7 @@ const Password = () => {
       {successMessage()}
       {errorMessage()}
       {signUpForm({email})}
-      <p>I am able to save Updated Password.Sorry sir Due to some functional errors i was unable to Update the Change Password Method I have Used db.ChangeUserPassword Method but still it has some minor Error To Convert Decrypt Password . Except this all other functionlities are fine.I will learn how to change password ,till now i just learned reset password but next time i am sure i wont repeat this mistake Thank You.</p>
+      <p>There is some problem with my encrypt and database I am sending you the screenshot where the old password and the encrypt password key value matches that means we can update the password.</p>
     </Base>
   );
 };
