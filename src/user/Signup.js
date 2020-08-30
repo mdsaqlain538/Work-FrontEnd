@@ -133,6 +133,7 @@ const Signup = () => {
             <button onClick={onSubmit} className="btn btn-primary btn-block">
               Submit
             </button>
+            <br></br>
             <p>Validation is done in Backend so dont worry If you Enter Blank Details it wont store in Database.</p>
           </form>
         </div>
